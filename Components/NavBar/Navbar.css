@@ -1,0 +1,46 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar-links li {
+    margin: 0 1rem;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .navbar-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-cart img {
+    height: 30px;
+  }
+  
+  .cart-count {
+    margin-left: 0.5rem;
+    background-color: #ff6f61;
+    color: white;
+    border-radius: 50%;
+    padding: 0.25rem 0.5rem;
+  }
+  
